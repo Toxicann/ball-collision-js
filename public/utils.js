@@ -33,7 +33,7 @@ function initBallParameters() {
   SPEEDX = Math.random() > 0.5 ? 1 : -1;
   SPEEDY = Math.random() > 0.5 ? 1 : -1;
 
-  MASS = randomInteger(1, 100);
+  MASS = randomInteger(1, 3);
 
   TOP = randomInteger(RADIUS, WINDOW_HEIGHT - RADIUS * 2);
   LEFT = randomInteger(RADIUS, WINDOW_WIDTH - RADIUS * 2);
