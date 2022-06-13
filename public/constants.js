@@ -1,0 +1,4 @@
+const WINDOW_WIDTH = 1800;
+const WINDOW_HEIGHT = 750;
+
+const NO_OF_BALLS = 500;

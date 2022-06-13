@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: gray;
+}
+
+#container {
+  position: relative;
+  background-color: black;
+  margin: 0 auto;
+}
+
+#container div {
+  border-radius: 50%;
+  border: 1px solid;
+}
+
+#image {
+  height: 350px;
+  display: flex;
+  justify-content: center;
+}
